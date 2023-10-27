@@ -18,3 +18,4 @@
     myConstVariable = "Moo-Moo!"; // This will throw an error.
     
     console.log(myConstVariable); // This will not be executed because of the error above.  
+    

@@ -17,4 +17,3 @@
     // Because the first value is false, the second value is evaluated and printed
 
     // Once you see the results, write in a comment why it works that way
-
