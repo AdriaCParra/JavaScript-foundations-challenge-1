@@ -7,3 +7,16 @@
 
     HINT1: Be careful for an infinite loop!
 */
+
+let loggedIn = false;
+let count = 1;
+
+while (loggedIn === false) {
+  console.log("Incorrect login credentials");
+
+  count++;
+
+  if (count === 3) loggedIn = true;
+}
+
+console.log("Sucessfully logged in!");
