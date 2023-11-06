@@ -17,3 +17,8 @@ if (age < 3) {
 } else {
   console.log("What? How did this happen!?");
 }
+
+// Solution:
+// The second condition is true, so the code will execute the second option and stop.
+// The third condition will never be reached.
+// To fix it, we need to change the second condition to be age >= 3 && age < 13
