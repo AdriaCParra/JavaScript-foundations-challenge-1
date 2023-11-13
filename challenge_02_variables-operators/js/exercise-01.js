@@ -1,26 +1,24 @@
- 
-    // 1. Create a variable called 'name' that points at a string containing your name
-    let user = 'Adrià Costa';
-    
-    // 2. Define function 'updateValue', which receives a value and updates variable 'name'
-    
-    function updateValue(value) {
-        user = value;
-        console.log(user);
-    }
+// 1. Create a variable called 'name' that points at a string containing your name
+let user = "Adrià Costa";
 
-    // 3. On the next line, call function 'updateValue' with your favourite musician's name
-    //  Log 'name' value.
+// 2. Define function 'updateValue', which receives a value and updates variable 'name'
 
-    updateValue('Kendrick Lamar');
+function updateValue(value) {
+  user = value;
+  console.log(user);
+}
 
-    // 4. On the next line, call function 'updateValue' with value 'true'
-    //  Log 'name' value.
+// 3. On the next line, call function 'updateValue' with your favourite musician's name
+//  Log 'name' value.
 
-    updateValue(true);
+updateValue("Kendrick Lamar");
 
-    // 5. On the next line, call function 'updateValue' value '28'
-    // Log 'name' value.
+// 4. On the next line, call function 'updateValue' with value 'true'
+//  Log 'name' value.
 
-    updateValue(28);
-    
+updateValue(true);
+
+// 5. On the next line, call function 'updateValue' value '28'
+// Log 'name' value.
+
+updateValue(28);

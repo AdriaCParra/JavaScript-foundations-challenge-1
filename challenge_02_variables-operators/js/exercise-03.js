@@ -2,9 +2,9 @@
 //  Use typeof to ckech the types for each of the main 5 primitive types (string, number, boolean, null, undefined)
 
 function getTypeOf(value) {
-    return typeof value;
-}   
- 
+  return typeof value;
+}
+
 //  2. Log the result of any function call.
 
 console.log(getTypeOf("Hello World!")); // string
